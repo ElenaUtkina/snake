@@ -45,7 +45,7 @@ namespace Snake
             {
                 y = y + offset;
             }
-            else
+            else if (direction == Direction.UP)
             {
                 y = y - offset;
             }
